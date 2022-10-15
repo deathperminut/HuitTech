@@ -7,6 +7,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { OurTeamComponent } from './pages/our-team/our-team.component';
 import { PioneersComponent } from './pages/pioneers/pioneers.component';
 import { NewsComponent } from './pages/news/news.component';
+import { NavBarComponent } from './Shared/nav-bar/nav-bar.component';
+import { NavOffCanvasComponent } from './Shared/nav-off-canvas/nav-off-canvas.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { NewsComponent } from './pages/news/news.component';
     AboutComponent,
     OurTeamComponent,
     PioneersComponent,
-    NewsComponent
+    NewsComponent,
+    NavBarComponent,
+    NavOffCanvasComponent
   ],
   imports: [
     BrowserModule
