@@ -1,0 +1,46 @@
+footer {
+    background: #0C131A;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center;  */
+}
+
+#footer-column {
+    height: 50%;
+}
+
+.footer-grid-container {
+    display: flex;
+}
+
+.footer-grid {
+    width: 20%;
+    /* background-color: rgb(34, 146, 53); */
+    margin: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.footer-grid-element {
+    margin-left: 1.1rem;
+}
+
+.footer-grid-element.text {
+    font-family: 'Rubik Dirt', cursive;
+    margin-left: 0;
+}
+
+.footer-grid-element.text.secundary {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+}
+
+.Footer-logos {
+    margin: auto;
+    /* margin-top: 30px; */
+    display: flex;
+    flex-direction: column;
+}

@@ -12,6 +12,7 @@ import { NavOffCanvasComponent } from './Shared/nav-off-canvas/nav-off-canvas.co
 
 // IMPORTAMOS EL APP-ROUTES
 import { app_routing } from './app.routes';
+import { FooterComponent } from './Shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { app_routing } from './app.routes';
     PioneersComponent,
     NewsComponent,
     NavBarComponent,
-    NavOffCanvasComponent
+    NavOffCanvasComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
