@@ -1,25 +1,25 @@
-<nav class="navbar navbar-dark bg-dark navbar-expand">
+<nav class="navbar navbar-dark bg-dark navbar-expand" >
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">HuitTech</a>
+        <a class="navbar-brand" href="#" [routerLink]="['home']">HuitTech</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0.5;">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0.6;">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item" style="margin-right: 10px;">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active" aria-current="page" [routerLink]="['home']">Inicio</a>
             </li>
             <li class="nav-item" style="margin-right: 10px;">
-              <a class="nav-link" href="#">Sobre nosotros</a>
+              <a class="nav-link" [routerLink]="['about']">Sobre nosotros</a>
             </li>
             <li class="nav-item" style="margin-right: 10px;">
-                <a class="nav-link" href="#">Nuestro equipo</a>
+                <a class="nav-link" [routerLink]="['OurTeam']">Nuestro equipo</a>
             </li>
             <li class="nav-item" style="margin-right: 10px;">
-                <a class="nav-link" href="#">Pioneros</a>
+                <a class="nav-link" [routerLink]="['Pioneers']">Pioneros</a>
             </li>
             <li class="nav-item" style="margin-right: 10px;">
-                <a class="nav-link" href="#">Noticias</a>
+                <a class="nav-link" [routerLink]="['news']">Noticias</a>
             </li>
 
             <!-- <li class="nav-item dropdown">

@@ -10,6 +10,9 @@ import { NewsComponent } from './pages/news/news.component';
 import { NavBarComponent } from './Shared/nav-bar/nav-bar.component';
 import { NavOffCanvasComponent } from './Shared/nav-off-canvas/nav-off-canvas.component';
 
+// IMPORTAMOS EL APP-ROUTES
+import { app_routing } from './app.routes';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,8 @@ import { NavOffCanvasComponent } from './Shared/nav-off-canvas/nav-off-canvas.co
     NavOffCanvasComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    app_routing
   ],
   providers: [],
   bootstrap: [AppComponent]
