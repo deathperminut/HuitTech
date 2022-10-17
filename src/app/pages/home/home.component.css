@@ -117,3 +117,19 @@
       transform: translateY(26px)
     }
   }
+
+  .grid-home{
+    border-radius: 10px;
+    background-color: #111214;
+    height: 80%;
+    width: 40%;
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:rgb(125, 128, 131)
+  }
+  .grid-home:hover{
+    background: radial-gradient(circle, rgba(20,24,45,1) 0%, rgba(20,55,17,1) 100%);
+  }
