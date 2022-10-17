@@ -1,0 +1,52 @@
+/*TEXT STYLES*/
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Silkscreen&display=swap');
+
+#HomeFirstImage{
+    
+    width:100%;
+    height: 100vh;
+    background-image: url("src/assets/Imag/HomeImag.png");  
+    border-bottom: 2px solid rgb(10, 9, 12);
+}
+.TextAnimateList{
+    margin-bottom: 7px;
+    color: rgb(78, 97, 97);
+    text-shadow: rgb(10, 9, 12);
+    font-family: 'Patua One', cursive;
+    padding-left: 10pt;
+}
+.TextAnimateContainer{
+
+    line-height: 50px;
+    height: 55px;
+    position:absolute;
+    font-size: 70px;
+    top:0;
+    bottom: 0;
+    margin:auto;
+    margin-top: 50vh;
+    text-align: left;
+    overflow: hidden;
+    margin-left: 0px !important;
+}
+.ListHome{
+    list-style: none;
+    animation: cambiar 6.6s infinite;
+}
+
+@keyframes cambiar{
+    0%{margin-top:0;}
+    20%{margin-top:0;}
+
+    25%{margin-top: -55px;}
+    50%{margin-top: -55px;}
+
+    55%{margin-top: -110px;}
+    80%{margin-top: -110px;}
+
+    85%{margin-top: -165px;}
+    95%{margin-top: -165px;}
+
+    100%{margin-top: 0px;}
+}
