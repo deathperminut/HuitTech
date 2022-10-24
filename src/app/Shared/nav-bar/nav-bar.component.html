@@ -1,6 +1,9 @@
-<nav class="navbar navbar-dark bg-dark navbar-expand" style="position: fixed; width: 100%;background-color: transparent !important;;" >
+<nav class="navbar navbar-dark bg-dark navbar-expand" style="position: fixed; width: 100%;background-color: transparent !important;z-index: 2;" >
     <div class="container-fluid" >
-        <a class="navbar-brand" href="#" [routerLink]="['home']" id="NavBarTitle">HuitTech</a>
+        <div style="display: flex; flex-direction: row;"> 
+          <div id="LogoNav" style="height: 30px;width: 110px;margin-left: 5px;"></div>
+          <!-- <a class="navbar-brand" href="#" [routerLink]="['home']" id="NavBarTitle">HuitTech</a> -->
+        </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0.6;">
           <ul id="ListRouting" class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item" style="margin-right: 10px;">
@@ -9,9 +12,9 @@
             <li class="nav-item" style="margin-right: 10px;">
               <a class="nav-link" [routerLink]="['about']"><i class="bi bi-incognito"></i> Sobre nosotros</a>
             </li>
-            <li class="nav-item" style="margin-right: 10px;">
+            <!-- <li class="nav-item" style="margin-right: 10px;">
                 <a class="nav-link" [routerLink]="['OurTeam']"><i class="bi bi-people"></i> Nuestro equipo</a>
-            </li>
+            </li> -->
             <li class="nav-item" style="margin-right: 10px;">
                 <a class="nav-link" [routerLink]="['Pioneers']"><i class="bi bi-sunset"></i> Pioneros</a>
             </li>
@@ -38,10 +41,10 @@
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form> -->
-          <button  type="button"   style="background: transparent; border: none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavBar" aria-controls="offcanvasNavBar">
+          <!-- <button  type="button"   style="background: transparent; border: none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavBar" aria-controls="offcanvasNavBar">
             <span class="navbar-toggler-icon"></span>
-          </button>
+          </button> -->
         </div>
       </div>
   </nav>
-  <app-nav-off-canvas></app-nav-off-canvas>
+  <!-- <app-nav-off-canvas></app-nav-off-canvas> -->

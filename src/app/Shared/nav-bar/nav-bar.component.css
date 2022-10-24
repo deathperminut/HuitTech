@@ -2,3 +2,9 @@
     font-size: 1.7rem;
     font-family: 'Rubik Dirt', cursive;
 }
+#LogoNav{
+    background-image: url("src/assets/Imag/Logo/LogoHuit.png");
+    background-repeat: no-repeat;  
+    background-size: 100% 100%;
+    margin-right: 10px;
+}

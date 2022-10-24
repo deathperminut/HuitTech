@@ -1,2 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap-icons/font/bootstrap-icons.css";
+
+/*TEXT STYLES*/
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+.font-text{
+    font-family: 'Patua One', cursive;
+    opacity: 1 !important;
+}
+.font-text-2{
+    font-family: 'Montserrat', sans-serif;
+}
+#LogoNav{
+    background-image: url("src/assets/Imag/Logo/LogoHuit.png");
+    background-repeat: no-repeat;  
+    background-size: 100% 100%;
+}

@@ -3,11 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Silkscreen&display=swap');
 
 #HomeFirstImage{
-    
     width:100%;
     height: 100vh;
-    background-image: url("src/assets/Imag/HomeImag.png");  
-    border-bottom: 2px solid rgb(10, 9, 12);
+    opacity: 0.26;
+    background-image: url("src/assets/Imag/HomeImag2.jpg");
+    background-repeat: no-repeat;  
+    background-size: 100% 100%;
+    z-index: 0;
 }
 .TextAnimateList{
     margin-bottom: 7px;
@@ -133,3 +135,27 @@
   .grid-home:hover{
     background: radial-gradient(circle, rgba(20,24,45,1) 0%, rgba(20,55,17,1) 100%);
   }
+
+  /*SPAN HOME*/
+
+#SpanHome {
+    display: block;
+    font-family: 'Patua One', cursive;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 22ch;
+    font-size: 40px;
+    
+    color: rgb(255, 255, 255);
+    animation: typing 1.5s steps(22), blink .5s infinite step-end alternate;
+    overflow:hidden;
+    }
+    
+@keyFrames typing {
+    
+    from { width: 0}
+    }
+    
+@keyFrames blink {
+     50% { border-color: transparent}
+    }
