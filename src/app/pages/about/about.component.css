@@ -38,3 +38,66 @@ h1 , h2, p {
     position: relative;
     line-height: 0.9;
   }
+#ProjectImage2{
+    background-image: url('src/assets/Imag/AboutUs/Projects/Project2.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* opacity: 0.25; */
+}
+#ProjectImage3{
+    background-image: url('src/assets/Imag/AboutUs/Projects/Project3.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* opacity: 0.25; */
+}
+#ProjectImage{
+    background-image: url('src/assets/Imag/AboutUs/Projects/Project1.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* opacity: 0.25; */
+}
+
+#CardContent{
+    background: linear-gradient(90deg, #3e2c69 1%, #983d67 100%);
+}
+#ButtonProject{
+    background-color: white;
+}
+#ButtonProject:hover{
+   background-color: #983d67;
+   color:azure;
+}
+#InfoCol{
+    background-color:#111214;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.card-title{
+    color:white;
+    text-align: center;
+}
+.card-text{
+    margin-top: 20%;
+    color:rgb(125, 128, 131);
+    
+}
+.btn-primary{
+    margin-top: 25%;
+    background-color: #983d67;
+
+}
